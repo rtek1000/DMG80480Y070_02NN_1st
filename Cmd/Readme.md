@@ -3,9 +3,9 @@ Basic commands (from file  [T5L_DGUSII Application Development Guide V2.8.pdf](h
 Note: the commands below do not yet have the CRC, after adding the CRC, byte 2 has its value increased by 2, and the CRC has 2 bytes (2x 8-bits).
 
 - Example CMD without CRC: 
-- - CMD: 5A A5 04 83 00 15 01
+- - 5A A5 04 83 00 15 01
 - Example CMD with CRC: 
-- - CMD: 5A A5 06 83 00 15 01 E6 F0
+- - 5A A5 06 83 00 15 01 E6 F0
 
 
 ##### Read GUI-status:
