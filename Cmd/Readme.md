@@ -38,18 +38,18 @@ If sending commands at intervals shorter than 20ms: Need to read GUI state befor
 - CMD: 5A A5 0F 82 5440 3007 0001 0168 0168 0001 FF00
 
 > 7.22.9 Icon Display
-> Displays icon No. 01 in the No. 48 icon library.
-> 5A A5 0F 82 5440 3007 0001 0168 0168 0001 FF00
-> 0x5AA5: Frame header;
-> 0x0F: Data length;
-> 0x82: Write instruction;
-> 0x5440: VP;
-> 0x30: Icon library No.48;
-> 0x07: 07 icon Write instruction;
-> 0x0001: display an icon;
-> 0x0168 0x0168: The starting display coordinates of the upper left corner of the icon (360, 360);
-> 0x0001: Icon No. 1 in the No. 48 icon library.
-> 0xFF00: Terminator
+> - Displays icon No. 01 in the No. 48 icon library.
+> - 5A A5 0F 82 5440 3007 0001 0168 0168 0001 FF00
+> - 0x5AA5: Frame header;
+> - 0x0F: Data length;
+> - 0x82: Write instruction;
+> - 0x5440: VP;
+> - 0x30: Icon library No.48;
+> - 0x07: 07 icon Write instruction;
+> - 0x0001: display an icon;
+> - 0x0168 0x0168: The starting display coordinates of the upper left corner of the icon (360, 360);
+> - 0x0001: Icon No. 1 in the No. 48 icon library.
+> - 0xFF00: Terminator
 
 ------
 
