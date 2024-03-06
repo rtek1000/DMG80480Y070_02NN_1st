@@ -30,6 +30,8 @@ If sending commands at intervals shorter than 20ms: Need to read GUI state befor
 - - RET: 5A A5 06 83 00 14 01 0000 (0x0000=free)
 - - RET: 5A A5 06 83 00 14 01 0001 (0x0001=processing)
 
+> The operation state feedback is in millisecond unit level, which is generally applied in special cases. The user can judge whether the GUI kernel is occupied by the DWIN - OS program.
+
 ------
 
 ##### Load icon:
