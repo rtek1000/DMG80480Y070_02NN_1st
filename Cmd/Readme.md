@@ -136,3 +136,7 @@ Note:
 
 Note: The Buzzer frequency can be modified in the CFG file settings, I don't know if it is possible to modify it during running time
 - Ref.: 0x27 to 0x2D
+> - Buzzer frequency= BUZZ_Freq_DIV1) KHz.825753. 6
+> - Factory settings: DIV1=0 x6E, DIV2=0 x0 BB8, correspond to the 2. 5 KHz frequency.
+> - Buzzer duty ratio settings: High level duty ratio=BUZZ_Freq_Duty/ BUZZ_Freq_DIV2. Factory settings: 0x00F0 corresponds to 8% high level duty ratio.
+> - Buzzing time after touch, unit 10 ms; Factory setting: 0x0A
