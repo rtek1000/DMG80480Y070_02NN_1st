@@ -50,6 +50,10 @@ The image can be edited in any editor, but I had an Android app project made in 
 ------
 ------
 
+### Commands:
+
+------
+
 ### Read GUI_status feedback:
 If sending commands at intervals shorter than 20ms: Need to read GUI state before sending new order CMD
 
