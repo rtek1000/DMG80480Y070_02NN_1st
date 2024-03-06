@@ -50,7 +50,7 @@ The image can be edited in any editor, but I had an Android app project made in 
 ------
 ------
 
-### Commands:
+## Commands:
 
 ------
 
