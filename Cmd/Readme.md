@@ -52,7 +52,7 @@ If sending commands at intervals shorter than 20ms: Need to read GUI state befor
 > - 0xFF00: Terminator
 
 - Only one icon is loaded each time.
-- To remove the icon, you can display an icon ID that does not exist in the library (file 48.ICL)
+- To remove the icon, you can display an icon ID that does not exist in the library (file 48.ICL).
 - When using a VP address for each 'Basic Drawing', even if the Background image is changed, the icon will remain as it was, until the VP value is modified.
 - - When returning to the background, the icon will also be reloaded.
 
