@@ -1,4 +1,4 @@
-Basic commands (from file  [T5L_DGUSII Application Development Guide V2.8.pdf](https://www.dwin-global.com/development-guide/)) :
+Basic commands (from file  [T5L_DGUSII Application Development Guide V2.8.pdf](https://github.com/rtek1000/DMG80480Y070_02NN_1st/blob/main/Doc/T5L_DGUSII-Application-Development-Guide-V2.8-0225.pdf)) :
 
 ##### Load icon:
 - CMD: 5A A5 0F 82 5440 3007 0001 0168 0168 0001 FF00
