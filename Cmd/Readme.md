@@ -43,7 +43,7 @@ If sending commands at intervals shorter than 20ms: Need to read GUI state befor
 > - 0x5AA5: Frame header;
 > - 0x0F: Data length;
 > - 0x82: Write instruction;
-> - 0x5440: VP; -----> VP of the "drawing board"
+> - 0x5440: VP; -----> VP of the "drawing board" ('Basic Graphic')
 > - 0x30: Icon library No.48;
 > - 0x07: 07 icon Write instruction;
 > - 0x0001: display an icon;
@@ -56,7 +56,7 @@ If sending commands at intervals shorter than 20ms: Need to read GUI state befor
 
 Note:
 > 7.22 Basic Graphics (menu 'Graph Show' - 'Basic Graphic')
-> - The basic graphics control is to define a " drawing board" function in the display configuration file 14.BIN, and the specific drawing operation is determined by the content of the variable memory pointed to by * VP. Users can realize different drawing functions by changing the data in the variable memory.
+> - The basic graphics control is to define a "drawing board" ('Basic Graphic' item) function in the display configuration file 14.BIN, and the specific drawing operation is determined by the content of the variable memory pointed to by * VP. Users can realize different drawing functions by changing the data in the variable memory.
 
 ------
 
