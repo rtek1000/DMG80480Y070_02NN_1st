@@ -23,7 +23,7 @@ The DGUS II software has an appropriate terminal (SP Order) for sending orders (
 
 ------
 
-##### Read GUI_status:
+##### Read GUI_status feedback:
 If sending commands at intervals shorter than 20ms: Need to read GUI state before sending new order CMD
 
 - CMD: 5A A5 04 83 0015 01
