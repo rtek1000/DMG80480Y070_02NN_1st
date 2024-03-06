@@ -16,6 +16,7 @@ Basic specs:
 - Operation Current: 190mA (Backlight on); 60mA (Backlight off)
 - Working Temperature (60% RH @ 12V): -10°C ~ 60°C
 - Working Humidity (25°C): 10% ~ 90%
+- Size: 189.1 x 101.2 x 14.5 mm
 
 - Baudrate: 3150 ~ 3225600 bps (3.225600 Mbps)
 - Output Voltage (TXD) VOL: 0.1V ~ 0.4V; VOH: 2.7V ~ 3.3V
