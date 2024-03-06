@@ -10,4 +10,4 @@ To switch from TA mode to DGUS mode, you need to change the kernel.
  
 Note: to return to TA mode it is necessary to contact Dwin, as the employee who helped me (from TA to DGUS mode) only gave me the [kernel upgrade](https://www.dwin-global.com/kernel-upgrade/) download link, when I asked about the files to go back to TA mode.
 
-Note 2: if the display has a problem during the file update and stops responding, it may be necessary to recover the display using a JTAG model PGT05.
+Note 2: if the display has a problem during the file update and stops responding, it may be necessary to [recover the display using a JTAG model PGT05](https://www.youtube.com/watch?v=K-7AfmHDhac)https://www.youtube.com/watch?v=K-7AfmHDhac.
