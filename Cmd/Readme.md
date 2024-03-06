@@ -117,13 +117,16 @@ Note:
 - CMD: 5A A5 04 83 0031 01
 - - RET: 5A A5 06 83 00 31 01 5A 32 (32= 50%; 64=100%)
 
-##### Backlight max:
+##### Backlight max (100%):
 - CMD: 5A A5 07 82 0082 0064 0000
 
-##### Backlight OFF:
+##### Backlight mid (50%):
+- CMD: 5A A5 07 82 0082 0032 0000
+
+##### Backlight OFF (0%):
 - CMD: 5A A5 07 82 0082 0000 0000
 
-##### Backlight mid:
+##### Backlight mid and timer:
 (10 seconds after the screen backlight automatically reduced to 0x32 brightness)
 - CMD: 5A A5 07 82 0082 6432 03E8
 
