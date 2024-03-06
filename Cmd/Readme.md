@@ -10,6 +10,7 @@ Programs made in DGUS II, that use timing, showed an interval about 2x faster in
 Another thing I wasn't very successful at was writing text.
 - I couldn't get the text to be centered.
 - The appearance of the letters wasn't very good.
+- - Automatic reduction of spaces between characters doesn't seem to work, or doesn't have it.
 - - I preferred to edit an image in Paint with text and display it as an icon.
 - - - And there are several open sources fonts on the internet.
 
