@@ -7,6 +7,7 @@ Note: the commands below do not yet have the CRC, after adding the CRC, byte 2 h
 - Example CMD with CRC: 
 - - 5A A5 06 83 00 15 01 E6 F0
 
+- No need to send CR (\r) or LF (\n) line terminator
 
 ##### Read GUI-status:
 If sending commands at intervals shorter than 20ms: Need to read GUI state before sending new order CMD
