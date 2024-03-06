@@ -2,16 +2,19 @@
 (from file  [T5L_DGUSII Application Development Guide V2.8.pdf](https://github.com/rtek1000/DMG80480Y070_02NN_1st/blob/main/Doc/T5L_DGUSII-Application-Development-Guide-V2.8-0225.pdf)) :
 - It has several other functions that could perhaps be better utilized with a display that has its own touchscreen.
 
-### Note 1: Programs made in DGUS II, that use timing, showed an interval about 2x faster in the preview simulator than in the real display.
+### Note 1 - timing:
+Programs made in DGUS II, that use timing, showed an interval about 2x faster in the preview simulator than in the real display.
 - For example, animating an icon with two images in a loop every 0.5s, the real display did it in 1s.
 
-### Note 2: Another thing I wasn't very successful at was writing text.
+### Note 2 - text:
+Another thing I wasn't very successful at was writing text.
 - I couldn't get the text to be centered.
 - The appearance of the letters wasn't very good.
 - - I preferred to edit an image in Paint with text and display it as an icon.
 - - - And there are several open sources fonts on the internet.
 
-### Note 3: the commands below do not yet have the CRC, after adding the CRC, byte 2 has its value increased by 2, and the CRC has 2 bytes (2x 8-bits).
+### Note 3 - CRC:
+The commands below do not yet have the CRC, after adding the CRC, byte 2 has its value increased by 2, and the CRC has 2 bytes (2x 8-bits).
 - Example CMD without CRC: 
 > 5A A5 04 83 00 15 01
 
@@ -20,7 +23,8 @@
 
 The DGUS II software has an appropriate terminal (SP Order) for sending orders (commands) and receiving responses from the display. The terminal is in a tab along with the CFG file generator (CFG Edit), in menu 'Settings' - 'DGUS serial port' - 'SP Order'
 
-### Note 4: In general, commands sent to the display are responded to, this can be used to check whether the Order (command) was received by the display.
+### Note 4 - response:
+In general, commands sent to the display are responded to, this can be used to check whether the Order (command) was received by the display.
 - Example for command (CMD): 5A A5 04 83 0015 01
 - - Response (RET): 5A A5 06 83 00 14 01 0000
 - Example for command: 5A A5 05 82 00A0 007D
