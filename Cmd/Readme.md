@@ -3,28 +3,28 @@ Basic commands (from file  [T5L_DGUSII Application Development Guide V2.8.pdf](h
 ##### Load icon:
 - CMD: 5A A5 0F 82 5440 3007 0001 0168 0168 0001 FF00
 
-7.22.9 Icon Display
-Displays icon No. 01 in the No. 48 icon library.
-5A A5 0F 82 5440 3007 0001 0168 0168 0001 FF00
-0x5AA5: Frame header;
-0x0F: Data length;
-0x82: Write instruction;
-0x5440: VP;
-0x30: Icon library No.48;
-0x07: 07 icon Write instruction;
-0x0001: display an icon;
-0x0168 0x0168: The starting display coordinates of the upper left corner of the icon (360, 360);
-0x0001: Icon No. 1 in the No. 48 icon library.
-0xFF00: Terminator
+> 7.22.9 Icon Display
+> Displays icon No. 01 in the No. 48 icon library.
+> 5A A5 0F 82 5440 3007 0001 0168 0168 0001 FF00
+> 0x5AA5: Frame header;
+> 0x0F: Data length;
+> 0x82: Write instruction;
+> 0x5440: VP;
+> 0x30: Icon library No.48;
+> 0x07: 07 icon Write instruction;
+> 0x0001: display an icon;
+> 0x0168 0x0168: The starting display coordinates of the upper left corner of the icon (360, 360);
+> 0x0001: Icon No. 1 in the No. 48 icon library.
+> 0xFF00: Terminator
 
 
 ##### Touchscreen Simulated:
 - CMD: 5AA5 0B 82 00D4 5AA5 0004 00EE 008F
 
-0xD4: 0x5AA5= enable the operation once, clear after operation.
-0xD5: press mode. 0x0001=press, 0x0002=release, 0x0003=keep pressing, 0x0004=touch (press + release)
-0xD6: X coordinate of press position.
-0xD7: Y coordinate of press position.
+> 0xD4: 0x5AA5= enable the operation once, clear after operation.
+> 0xD5: press mode. 0x0001=press, 0x0002=release, 0x0003=keep pressing, 0x0004=touch (press + release)
+> 0xD6: X coordinate of press position.
+> 0xD7: Y coordinate of press position.
 
 After simulating mode 0x0001 and 0x0003, must simulate 0x0002.
 
