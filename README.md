@@ -13,3 +13,5 @@ This model DMG80480Y070_02NN is 800x480 in 7 inches, with only additional Buzzer
 Important tip: don't watch any tutorial on the internet without reading the [Development Guides](https://www.dwin-global.com/development-guide/).
 
 - [Basic commands for DGUS II mode](https://github.com/rtek1000/DMG80480Y070_02NN_1st/tree/main/Cmd#readme)
+
+- If the display does not respond to commands from the serial port, but loads the first image, the display may be in TA mode, see this page: [kernel upgrade](https://github.com/rtek1000/DMG80480Y070_02NN_1st/blob/main/Kernel/Readme.md)https://github.com/rtek1000/DMG80480Y070_02NN_1st/blob/main/Kernel/Readme.md
