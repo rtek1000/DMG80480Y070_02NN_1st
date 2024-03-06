@@ -9,3 +9,5 @@ To switch from TA mode to DGUS mode, you need to change the kernel.
 - - The project must have the T5LCFG.CFG file to start the basic display settings in DGUS mode.
  
 Note: to return to TA mode it is necessary to contact Dwin, as the employee who helped me (from TA to DGUS mode) only gave me the [kernel upgrade](https://www.dwin-global.com/kernel-upgrade/) download link, when I asked about the files to go back to TA mode.
+
+Note 2: if the display has a problem during the file update and stops responding, it may be necessary to recover the display using a JTAG model PGT05.
