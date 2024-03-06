@@ -9,7 +9,7 @@ This model DMG80480Y070_02NN is 800x480 in 7 inches, with only additional Buzzer
 - Can make the buzzer beep
 - Can control Backlight
 - Has CRC16 error control (Modbus style with swapped bytes)
-- This model does not have a touch screen, but can simulate it via serial commands.
+- This model (02NN) does not have a touch screen, but can simulate it via serial commands.
 
 ![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Doc/DMG80480Y070_02NN_front.png)
 
