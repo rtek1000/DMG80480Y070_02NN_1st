@@ -9,7 +9,7 @@ Note 2: Another thing I wasn't very successful at was writing text.
 - - I preferred to edit an image in Paint with text and display it as an icon.
 - - - And there are several open sources fonts on the internet.
 
-Note 2: the commands below do not yet have the CRC, after adding the CRC, byte 2 has its value increased by 2, and the CRC has 2 bytes (2x 8-bits).
+Note 3: the commands below do not yet have the CRC, after adding the CRC, byte 2 has its value increased by 2, and the CRC has 2 bytes (2x 8-bits).
 
 
 - Example CMD without CRC: 
