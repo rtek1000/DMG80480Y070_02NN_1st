@@ -18,6 +18,7 @@ Basic specs:
 - Working Humidity (25°C): 10% ~ 90%
 - Size: 189.1 x 101.2 x 14.5 mm
 
+Serial port electrical specifications:
 - Baudrate: 3150 ~ 3225600 bps (3.225600 Mbps)
 - Output Voltage (TXD) VOL: 0.1V ~ 0.4V; VOH: 2.7V ~ 3.3V
 - Input Voltage (RXD) VIL: 0V ~ 1.0V; VIH: 2.4V ~ 5.5V
