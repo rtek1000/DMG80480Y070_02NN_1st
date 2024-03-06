@@ -51,6 +51,13 @@ If sending commands at intervals shorter than 20ms: Need to read GUI state befor
 > - 0x0001: Icon No. 1 in the No. 48 icon library.
 > - 0xFF00: Terminator
 
+- Only one icon is loaded each time.
+- To remove the icon, you can display an icon ID that does not exist in the library (file 48.ICL)
+
+Note:
+> 7.22 Basic Graphics
+> The basic graphics control is to define a " drawing board" function in the display configuration file 1 4 . BIN, and the specific drawing operation is determined by the content of the variable memory pointed to by * VP. Users can realize different drawing functions by changing the data in the variable memory.
+
 ------
 
 ##### Touchscreen Simulated:
