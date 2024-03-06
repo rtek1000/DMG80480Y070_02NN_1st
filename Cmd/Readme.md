@@ -34,7 +34,7 @@ In general, commands sent to the display are responded to, this can be used to c
 #### No need to send CR (\r) or LF (\n) line terminator
 
 ### Note 5 - image:
-The image can be edited in any editor, but I had an Android app project made in [B4X](https://www.b4x.com/), and I preferred to edit the background images and icon positioning using B4X, which has zoom in the editor.
+The image can be edited in any editor, but I had an Android app project made in [B4X](https://www.b4x.com/), and I preferred to positioning the background images and icon positioning using B4X, which has zoom in the editor.
 - Unfortunately, it didn't work out very well using an Android tablet as an HMI, 2 PCB boards burned out, apparently they are not devices for 24-hour use.
 
 ------
