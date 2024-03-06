@@ -1,6 +1,6 @@
 Basic commands (from file  [T5L_DGUSII Application Development Guide V2.8.pdf](https://github.com/rtek1000/DMG80480Y070_02NN_1st/blob/main/Doc/T5L_DGUSII-Application-Development-Guide-V2.8-0225.pdf)) :
 
-Note 1: Programs made in DGUS II that use timing showed an interval about 2x faster in the preview simulator than in the real display.
+Note 1: Programs made in DGUS II, that use timing, showed an interval about 2x faster in the preview simulator than in the real display.
 - For example, animating an icon with two images in a loop every 0.5s, the real display did it in 1s.
 
 Note 2: Another thing I wasn't very successful at was writing text.
