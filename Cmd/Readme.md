@@ -85,9 +85,12 @@ If sending commands at intervals shorter than 20ms: Need to read GUI state befor
 - When using a VP address for each 'Basic Drawing', even if the Background image is changed, the icon will remain as it was, until the VP value is modified.
 - - When returning to the background, the icon will also be reloaded.
 
-Note:
+Note 1:
 > 7.22 Basic Graphics (menu 'Graph Show' - 'Basic Graphic')
 > - The basic graphics control is to define a "drawing board" ('Basic Graphic' item) function in the display configuration file 14.BIN, and the specific drawing operation is determined by the content of the variable memory pointed to by * VP. Users can realize different drawing functions by changing the data in the variable memory.
+
+Note 2:
+The DGUS II software has an 'Export' button (*.xls file) that can be used as a list of VP addresses in use, including the background image and type of item used (unfortunately it is not yet in ascending VP order).
 
 ------
 
