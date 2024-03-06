@@ -12,16 +12,16 @@ This model DMG80480Y070_02NN is 800x480 in 7 inches, with only additional Buzzer
 - This model (02NN) does not have a touch screen, but can simulate it via serial commands.
 
 Basic specs:
-- Power Voltage: 7.0V ~ 15.0V
-- Operation Current: 190mA (Backlight on); 60mA (Backlight off)
-- Working Temperature (60% RH @ 12V): -10°C ~ 60°C
-- Working Humidity (25°C): 10% ~ 90%
+- Power Voltage: 7.0V ~ 15.0V (Typ.: 12V)
+- Operation Current (Typ): 190mA (Backlight on); 60mA (Backlight off)
+- Working Temperature (60% RH @ 12V): -10°C ~ 60°C (Typ.: 25°C)
+- Working Humidity (25°C): 10% ~ 90% (Typ.: 60%)
 - Size: 189.1 x 101.2 x 14.5 mm
 
 Serial port specs:
-- Baudrate: 3150 ~ 3225600 bps (3.225600 Mbps)
-- Output Voltage (TXD) V(OL): 0.1V ~ 0.4V; V(OH): 2.7V ~ 3.3V
-- Input Voltage (RXD) V(IL): 0V ~ 1.0V; V(IH): 2.4V ~ 5.5V
+- Baudrate: 3150 ~ 3225600 bps (3.225600 Mbps) (Typ.: 115200)
+- Output Voltage (TXD) V(OL): 0.1V (Typ) ~ 0.4V; V(OH): 2.7V ~ 3.2V (Typ)
+- Input Voltage (RXD) V(IL): 0V ~ 1.0V; V(IH): 2.4V ~ 5.5V (Typ.: 3.3V)
 
 ![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Doc/DMG80480Y070_02NN_front.png)
 
