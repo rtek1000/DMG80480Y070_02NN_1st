@@ -5,7 +5,7 @@ If you are looking for a low-cost display and are targeting an SSD1963, it might
 
 This model DMG80480Y070_02NN is 800x480 in 7 inches, with only additional Buzzer and communication connector.
 
-- Communication via serial 8N1 (TTL(default)/RS232 selectable via jumper)
+- Communication via serial 8N1 [TTL(default)/RS232 selectable via jumper (soldered on the board)]
 - Can make the buzzer beep
 - Can control Backlight
 - Has CRC16 error control (Modbus style with swapped bytes)
