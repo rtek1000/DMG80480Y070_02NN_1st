@@ -19,9 +19,18 @@ Basic specs:
 - Size: 189.1 x 101.2 x 14.5 mm
 
 Serial port specs:
-- Baudrate: 3150 ~ 3225600 bps (3.225600 Mbps) (Typ.: 115200)
-- Output Voltage (TXD) V(OL): 0.1V (Typ) ~ 0.4V; V(OH): 2.7V ~ 3.2V (Typ)
-- Input Voltage (RXD) V(IL): 0V ~ 1.0V; V(IH): 2.4V ~ 5.5V (Typ.: 3.3V)
+- Baudrate:
+- - Min.: 3150
+- - Max.: 3225600 bps (3.225600 Mbps)
+- - Typ.: 115200
+- Output Voltage (TXD):
+- - V(OL): 0.1V (Typ) ~ 0.4V
+- - V(OH): 2.7V ~ 3.2V
+- - 3.2V (Typ)
+- Input Voltage (RXD)
+- - V(IL): 0V ~ 1.0V
+- - V(IH): 2.4V ~ 5.5V
+- - 3.3V (Typ)
 
 ![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Doc/DMG80480Y070_02NN_front.png)
 
