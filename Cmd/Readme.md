@@ -103,11 +103,11 @@ Note:
 
 ------
 
-### Load BackGround (BG):
+### Load Background - PIC_ Set:
 - CMD: 5A A5 07 82 0084 5A01 0001
 
 
-##### Read Display current BG page ID. (Read only):
+##### Read Display current Background page ID. (Read only):
 - CMD: 5A A5 04 83 0014 01
 - - RET: 5A A5 06 83 00 14 01 0007 (0007 is page 07)
 
