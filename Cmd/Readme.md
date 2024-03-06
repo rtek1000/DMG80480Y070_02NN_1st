@@ -124,6 +124,7 @@ Note:
 - CMD: 5A A5 07 82 0082 0000 0000
 
 ##### Backlight mid:
+(10 seconds after the screen backlight automatically reduced to 0x32 brightness)
 - CMD: 5A A5 07 82 0082 6432 03E8
 
 ------
