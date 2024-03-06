@@ -56,7 +56,7 @@ If sending commands at intervals shorter than 20ms: Need to read GUI state befor
 
 Note:
 > 7.22 Basic Graphics (menu 'Graph Show' - 'Basic Graphic')
-> The basic graphics control is to define a " drawing board" function in the display configuration file 1 4 . BIN, and the specific drawing operation is determined by the content of the variable memory pointed to by * VP. Users can realize different drawing functions by changing the data in the variable memory.
+> - The basic graphics control is to define a " drawing board" function in the display configuration file 1 4 . BIN, and the specific drawing operation is determined by the content of the variable memory pointed to by * VP. Users can realize different drawing functions by changing the data in the variable memory.
 
 ------
 
