@@ -29,7 +29,7 @@ Note 4: In general, commands sent to the display are responded to, this can be u
 
 ------
 
-##### Read GUI_status feedback:
+### Read GUI_status feedback:
 If sending commands at intervals shorter than 20ms: Need to read GUI state before sending new order CMD
 
 - CMD: 5A A5 04 83 0015 01
@@ -40,7 +40,7 @@ If sending commands at intervals shorter than 20ms: Need to read GUI state befor
 
 ------
 
-##### Load icon:
+### Load icon:
 - CMD: 5A A5 0F 82 5440 3007 0001 0168 0168 0001 FF00
 
 > 7.22.9 Icon Display
@@ -68,7 +68,7 @@ Note:
 
 ------
 
-##### Touchscreen Simulated:
+### Touchscreen Simulated:
 - CMD: 5AA5 0B 82 00D4 5AA5 0004 00EE 008F
 
 > 0xD4: 0x5AA5= enable the operation once, clear after operation.
@@ -80,7 +80,7 @@ Note:
 
 ------
 
-##### Load BackGround (BG):
+### Load BackGround (BG):
 - CMD: 5A A5 07 82 0084 5A01 0001
 
 
@@ -89,6 +89,10 @@ Note:
 - - RET: 5A A5 06 83 00 14 01 0007 (0007 is page 07)
 
 ------
+
+### Read Backlight value:
+- CMD: 5A A5 04 83 0031 01
+- - RET: 5A A5 06 83 00 31 01 5A 32 (32= 50%; 64=100%)
 
 ##### Backlight max:
 - CMD: 5A A5 07 82 0082 0064 0000
@@ -99,16 +103,10 @@ Note:
 ##### Backlight mid:
 - CMD: 5A A5 07 82 0082 6432 03E8
 
-
-##### Read Backlight value:
-- CMD: 5A A5 04 83 0031 01
-- - RET: 5A A5 06 83 00 31 01 5A 32 (32= 50%; 64=100%)
-
 ------
 
-##### Play Buzzer 1s (The buzzer sounds for 1 second, 1000ms/8ms=125=007Dh):
+### Play Buzzer 1s (The buzzer sounds for 1 second, 1000ms/8ms=125=007Dh):
 - CMD: 5A A5 05 82 00A0 007D
-
 
 ##### Play Buzzer 0.5s (The buzzer sounds for 0.5 seconds, 500ms/8ms=62.5=003Eh):
 - CMD: 5A A5 05 82 00A0 003E
