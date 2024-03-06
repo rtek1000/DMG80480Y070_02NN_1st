@@ -35,7 +35,7 @@ In general, commands sent to the display are responded to, this can be used to c
 
 ### Note 5 - image:
 The image can be edited in any editor, but I had an Android app project made in [B4X](https://www.b4x.com/), and I preferred to positioning the background images and icon positioning using B4X, which has zoom in the editor.
-- Unfortunately, it didn't work out very well using an Android tablet as an HMI, 2 PCB boards burned out, apparently the models I used (Rk3028 chip) are not devices for 24-hour use. Others with a similar chip, but without BGA soldering, are still working, but I preferred to avoid tablets for this application, although Android apps are much better than HMI displays.
+- Unfortunately, it didn't work out very well using an Android tablet as an HMI, 2 PCB boards burned out, apparently the models I used (Rk3028 chip) are not devices for 24-hour use. Others with a similar chip model, but without BGA soldering, are still working, but I preferred to avoid tablets for this application, although Android apps are much better than HMI displays.
 
 ------
 
