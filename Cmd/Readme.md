@@ -3,7 +3,13 @@ Basic commands (from file  [T5L_DGUSII Application Development Guide V2.8.pdf](h
 Note 1: Programs made on DGUS II that use timing showed an interval about 2x faster than the real display.
 - For example, animating an icon with two images in a loop every 0.5s, the real display did it in 1s.
 
+Note 2: Another thing I wasn't very successful at was writing text.
+- I couldn't get the text to be centered.
+- And the appearance of the letters wasn't very good.
+- - I found it better to edit an image in Paint with the text and display it as an icon, there are several open sources on the internet.
+
 Note 2: the commands below do not yet have the CRC, after adding the CRC, byte 2 has its value increased by 2, and the CRC has 2 bytes (2x 8-bits).
+
 
 - Example CMD without CRC: 
 > 5A A5 04 83 00 15 01
