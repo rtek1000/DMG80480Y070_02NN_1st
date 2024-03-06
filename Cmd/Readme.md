@@ -1,5 +1,11 @@
 Basic commands (from file  [T5L_DGUSII Application Development Guide V2.8.pdf](https://github.com/rtek1000/DMG80480Y070_02NN_1st/blob/main/Doc/T5L_DGUSII-Application-Development-Guide-V2.8-0225.pdf)) :
 
+##### Read GUI-status (Need to read GUI state before sending new order CMD):
+- CMD: 5A A5 04 83 0015 01
+- - RET: 5A A5 06 83 00 14 01 0000 (0x0000=free)
+- - RET: 5A A5 06 83 00 14 01 0001 (0x0001=processing)
+
+  
 ##### Load icon:
 - CMD: 5A A5 0F 82 5440 3007 0001 0168 0168 0001 FF00
 
@@ -36,12 +42,6 @@ Basic commands (from file  [T5L_DGUSII Application Development Guide V2.8.pdf](h
 ##### Read Display current BG page ID. (Read only):
 - CMD: 5A A5 04 83 0014 01
 - - RET: 5A A5 06 83 00 14 01 0007 (0007 is page 07)
-
-
-##### Read GUI-status (Need to read GUI state before sending new order CMD):
-- CMD: 5A A5 04 83 0015 01
-- - RET: 5A A5 06 83 00 14 01 0000 (0x0000=free)
-- - RET: 5A A5 06 83 00 14 01 0001 (0x0001=processing)
 
 
 ##### Backlight max:
