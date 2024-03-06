@@ -9,6 +9,8 @@ Note: the commands below do not yet have the CRC, after adding the CRC, byte 2 h
 
 - No need to send CR (\r) or LF (\n) line terminator
 
+------
+
 ##### Read GUI-status:
 If sending commands at intervals shorter than 20ms: Need to read GUI state before sending new order CMD
 
@@ -16,7 +18,8 @@ If sending commands at intervals shorter than 20ms: Need to read GUI state befor
 - - RET: 5A A5 06 83 00 14 01 0000 (0x0000=free)
 - - RET: 5A A5 06 83 00 14 01 0001 (0x0001=processing)
 
-  
+------
+
 ##### Load icon:
 - CMD: 5A A5 0F 82 5440 3007 0001 0168 0168 0001 FF00
 
@@ -34,6 +37,7 @@ If sending commands at intervals shorter than 20ms: Need to read GUI state befor
 > 0x0001: Icon No. 1 in the No. 48 icon library.
 > 0xFF00: Terminator
 
+------
 
 ##### Touchscreen Simulated:
 - CMD: 5AA5 0B 82 00D4 5AA5 0004 00EE 008F
@@ -45,6 +49,7 @@ If sending commands at intervals shorter than 20ms: Need to read GUI state befor
 >
 > After simulating mode 0x0001 and 0x0003, must simulate 0x0002.
 
+------
 
 ##### Load BackGround (BG):
 - CMD: 5A A5 07 82 0084 5A01 0001
@@ -54,6 +59,7 @@ If sending commands at intervals shorter than 20ms: Need to read GUI state befor
 - CMD: 5A A5 04 83 0014 01
 - - RET: 5A A5 06 83 00 14 01 0007 (0007 is page 07)
 
+------
 
 ##### Backlight max:
 - CMD: 5A A5 07 82 0082 0064 0000
@@ -69,6 +75,7 @@ If sending commands at intervals shorter than 20ms: Need to read GUI state befor
 - CMD: 5A A5 04 83 0031 01
 - - RET: 5A A5 06 83 00 31 01 5A 32 (32= 50%; 64=100%)
 
+------
 
 ##### Play Buzzer 1s (The buzzer sounds for 1 second, 1000ms/8ms=125=007Dh):
 - CMD: 5A A5 05 82 00A0 007D
