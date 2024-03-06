@@ -9,6 +9,7 @@ This model DMG80480Y070_02NN is 800x480 in 7 inches, with only additional Buzzer
 - Can make the buzzer beep
 - Can control Backlight
 - Has CRC16 error control (Modbus style with swapped bytes)
+- This model does not have a touch screen, but can simulate it via serial commands.
 
 ### Important tip: don't watch any tutorial on the internet without reading the [Development Guides](https://www.dwin-global.com/development-guide/).
 
