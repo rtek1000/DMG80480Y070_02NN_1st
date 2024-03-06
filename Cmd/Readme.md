@@ -12,7 +12,7 @@ Programs made in DGUS II, that use timing, showed an interval about 2x faster in
 ------
 
 ### Note 2 - text:
-Another thing I wasn't very successful at was writing text.
+A thing I wasn't very successful at was writing text.
 - I couldn't get the text to be centered.
 - The appearance of the letters wasn't very good.
 - - Automatic reduction of spaces between characters doesn't seem to work, or doesn't have it.
