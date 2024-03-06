@@ -1,5 +1,5 @@
 # DMG80480Y070_02NN_1st
-First impressions of the Dwin display model DMG80480Y070_02NN - Basic commands
+First impressions of the Dwin display model DMG80480Y070_02NN and Basic commands
 
 If you are looking for a low-cost display and are targeting an SSD1963, it might be interesting to check out Dwin displays.
 
