@@ -19,7 +19,7 @@ Displays icon No. 01 in the No. 48 icon library.
 
 
 ##### Touchscreen Simulated:
-CMD: 5AA5 0B 82 00D4 5AA5 0004 00EE 008F
+- CMD: 5AA5 0B 82 00D4 5AA5 0004 00EE 008F
 
 0xD4: 0x5AA5= enable the operation once, clear after operation.
 0xD5: press mode. 0x0001=press, 0x0002=release, 0x0003=keep pressing, 0x0004=touch (press + release)
@@ -30,38 +30,38 @@ After simulating mode 0x0001 and 0x0003, must simulate 0x0002.
 
 
 ##### Load BackGround (BG):
-CMD: 5A A5 07 82 0084 5A01 0001
+- CMD: 5A A5 07 82 0084 5A01 0001
 
 
 ##### Read Display current BG page ID. (Read only):
-CMD: 5A A5 04 83 0014 01
-RET: 5A A5 06 83 00 14 01 0007 (0007 is page 07)
+- CMD: 5A A5 04 83 0014 01
+- - RET: 5A A5 06 83 00 14 01 0007 (0007 is page 07)
 
 
 ##### Read GUI-status (Need to read GUI state before sending new order CMD):
-CMD: 5A A5 04 83 0015 01
-RET: 5A A5 06 83 00 14 01 0000 (0x0000=free)
-RET: 5A A5 06 83 00 14 01 0001 (0x0001=processing)
+- CMD: 5A A5 04 83 0015 01
+- - RET: 5A A5 06 83 00 14 01 0000 (0x0000=free)
+- - RET: 5A A5 06 83 00 14 01 0001 (0x0001=processing)
 
 
 ##### Backlight max:
-CMD: 5A A5 07 82 0082 0064 0000
+- CMD: 5A A5 07 82 0082 0064 0000
 
 ##### Backlight OFF:
-CMD: 5A A5 07 82 0082 0000 0000
+- CMD: 5A A5 07 82 0082 0000 0000
 
 ##### Backlight mid:
-CMD: 5A A5 07 82 0082 6432 03E8
+- CMD: 5A A5 07 82 0082 6432 03E8
 
 
 ##### Read Backlight value:
-CMD: 5A A5 04 83 0031 01
-RET: 5A A5 06 83 00 31 01 5A 32 (32= 50%; 64=100%)
+- CMD: 5A A5 04 83 0031 01
+- - RET: 5A A5 06 83 00 31 01 5A 32 (32= 50%; 64=100%)
 
 
 ##### Play Buzzer 1s (The buzzer sounds for 1 second, 1000ms/8ms=125=007Dh):
-CMD: 5A A5 05 82 00A0 007D
+- CMD: 5A A5 05 82 00A0 007D
 
 
 ##### Play Buzzer 0.5s (The buzzer sounds for 0.5 seconds, 500ms/8ms=62.5=003Eh):
-CMD: 5A A5 05 82 00A0 003E
+- CMD: 5A A5 05 82 00A0 003E
