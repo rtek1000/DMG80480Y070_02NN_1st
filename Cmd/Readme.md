@@ -38,6 +38,7 @@ The image can be edited in any editor, but I had an Android app project made in 
 - Unfortunately, it didn't work out very well using an Android tablet as an HMI, 2 PCB boards burned out, apparently the models I used (Rk3028 chip) are not devices for 24-hour use. Others with a similar chip model, but without BGA soldering, are still working, but I preferred to avoid tablets for this application, although Android apps are much better than HMI displays.
 
 ------
+------
 
 ### Read GUI_status feedback:
 If sending commands at intervals shorter than 20ms: Need to read GUI state before sending new order CMD
