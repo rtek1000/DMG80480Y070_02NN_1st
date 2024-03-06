@@ -11,12 +11,13 @@ Note 2: Another thing I wasn't very successful at was writing text.
 
 Note 3: the commands below do not yet have the CRC, after adding the CRC, byte 2 has its value increased by 2, and the CRC has 2 bytes (2x 8-bits).
 
-
 - Example CMD without CRC: 
 > 5A A5 04 83 00 15 01
 
 - Example CMD with CRC: 
 > 5A A5 06 83 00 15 01 E6 F0
+
+The DGUS II software has an appropriate terminal (SP Order) for sending orders (commands) and receiving responses from the display. The terminal is in a tab along with the CFG file generator, in Settings/DGUS serial port/SP Order
 
 ##### No need to send CR (\r) or LF (\n) line terminator
 
