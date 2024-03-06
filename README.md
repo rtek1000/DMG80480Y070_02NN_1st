@@ -18,7 +18,7 @@ Basic specs:
 - Working Humidity (25°C): 10% ~ 90% (Typ.: 60%)
 - Size: 189.1 x 101.2 x 14.5 mm
 
-Serial port specs:
+Serial port specs [must support direct connection to Arduino UNO (5V) and ESP32 (3.3V)]:
 - Baudrate:
 - - Min.: 3150
 - - Max.: 3225600 bps (3.225600 Mbps)
