@@ -25,8 +25,6 @@ Note 4: In general, commands sent to the display are responded to, this can be u
 - Example for command: 5A A5 05 82 00A0 007D
 - - Response: 5A A5 03 82 4F 4B
 
-Note 5: 'CMD' and 'RET' are 
-
 ##### No need to send CR (\r) or LF (\n) line terminator
 
 ------
