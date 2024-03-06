@@ -25,8 +25,8 @@ Basic commands (from file  [T5L_DGUSII Application Development Guide V2.8.pdf](h
 > 0xD5: press mode. 0x0001=press, 0x0002=release, 0x0003=keep pressing, 0x0004=touch (press + release)
 > 0xD6: X coordinate of press position.
 > 0xD7: Y coordinate of press position.
-
-After simulating mode 0x0001 and 0x0003, must simulate 0x0002.
+>
+> After simulating mode 0x0001 and 0x0003, must simulate 0x0002.
 
 
 ##### Load BackGround (BG):
