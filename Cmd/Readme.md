@@ -19,6 +19,8 @@ Note 3: the commands below do not yet have the CRC, after adding the CRC, byte 2
 
 The DGUS II software has an appropriate terminal (SP Order) for sending orders (commands) and receiving responses from the display. The terminal is in a tab along with the CFG file generator (CFG Edit), in menu 'Settings' - 'DGUS serial port' - 'SP Order'
 
+Note 4: In general, commands sent to the display are responded to, this can be used to check whether the Order (command) was received by the display.
+
 ##### No need to send CR (\r) or LF (\n) line terminator
 
 ------
