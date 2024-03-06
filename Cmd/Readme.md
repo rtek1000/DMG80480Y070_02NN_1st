@@ -1,6 +1,7 @@
 # Basic commands
 (from file  [T5L_DGUSII Application Development Guide V2.8.pdf](https://github.com/rtek1000/DMG80480Y070_02NN_1st/blob/main/Doc/T5L_DGUSII-Application-Development-Guide-V2.8-0225.pdf)) :
 - It has several other functions that could perhaps be better utilized with a display that has its own touchscreen.
+- It also has several other interesting commands for drawing, including graphics.
 
 ------
 
