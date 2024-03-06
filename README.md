@@ -18,10 +18,8 @@ Basic specs:
 - Working Humidity (25°C): 10% ~ 90%
 
 - Baudrate: 3150 ~ 3225600 bps (3.225600 Mbps)
-- Output Voltage (TXD) VOH: 2.7V ~ 3.3V
-- Output Voltage (TXD) VOL: 0.1V ~ 0.4V
-- Input Voltage (RXD) VIH: 2.4V ~ 5.5V
-- Input Voltage (RXD) VIL: 0V ~ 1.0V
+- Output Voltage (TXD) VOL: 0.1V ~ 0.4V; VOH: 2.7V ~ 3.3V
+- Input Voltage (RXD) VIL: 0V ~ 1.0V; VIH: 2.4V ~ 5.5V
 
 ![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Doc/DMG80480Y070_02NN_front.png)
 
