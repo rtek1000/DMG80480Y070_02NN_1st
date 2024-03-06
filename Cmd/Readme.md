@@ -90,7 +90,7 @@ Note 1:
 > - The basic graphics control is to define a "drawing board" ('Basic Graphic' item) function in the display configuration file 14.BIN, and the specific drawing operation is determined by the content of the variable memory pointed to by * VP. Users can realize different drawing functions by changing the data in the variable memory.
 
 Note 2:
-The DGUS II software has an 'Export' button (*.xls file) that can be used as a list of VP addresses in use, including the background image and type of item used (unfortunately it is not yet in ascending VP order).
+- The DGUS II software has an 'Export' button (*.xls file) that can be used as a list of VP addresses in use, including the background image and type of item used (unfortunately it is not yet in ascending VP order).
 
 ------
 
