@@ -133,3 +133,6 @@ Note:
 
 ##### Play Buzzer 0.5s (The buzzer sounds for 0.5 seconds, 500ms/8ms=62.5=003Eh):
 - CMD: 5A A5 05 82 00A0 003E
+
+Note: The Buzzer frequency can be modified in the CFG file settings, I don't know if it is possible to modify it during running time
+- Ref.: 0x27 to 0x2D
