@@ -10,6 +10,6 @@ This model DMG80480Y070_02NN is 800x480 in 7 inches, with only additional Buzzer
 - Can control Backlight
 - Has CRC16 error control (Modbus style with swapped bytes)
 
-Important tip: don't watch any tutorial on the internet without reading the [T5L_DGUSII Application Development Guide](https://www.dwin-global.com/development-guide/).
+Important tip: don't watch any tutorial on the internet without reading the [Development Guides](https://www.dwin-global.com/development-guide/).
 
 - [Basic commands](https://github.com/rtek1000/DMG80480Y070_02NN_1st/tree/main/Cmd#readme)
