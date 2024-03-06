@@ -87,6 +87,7 @@ If sending commands at intervals shorter than 20ms: Need to read GUI state befor
 - - When returning to the background, the icon will also be reloaded.
 
 Note 1:
+- To load an icon, the program has to add a 'Basic Graphic' item over the background image, which will have a VP address.
 > 7.22 Basic Graphics (menu 'Graph Show' - 'Basic Graphic')
 > - The basic graphics control is to define a "drawing board" ('Basic Graphic' item) function in the display configuration file 14.BIN, and the specific drawing operation is determined by the content of the variable memory pointed to by * VP. Users can realize different drawing functions by changing the data in the variable memory.
 
