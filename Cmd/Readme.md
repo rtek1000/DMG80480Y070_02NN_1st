@@ -1,6 +1,6 @@
 Basic commands (from file  [T5L_DGUSII Application Development Guide V2.8.pdf](https://github.com/rtek1000/DMG80480Y070_02NN_1st/blob/main/Doc/T5L_DGUSII-Application-Development-Guide-V2.8-0225.pdf)) :
 
-Note: the commands below do not yet have the CRC, after adding the CRC, byte 2 has its value increased by 2, and the CRC has 2 bytes (2x 8-bits)
+Note: the commands below do not yet have the CRC, after adding the CRC, byte 2 has its value increased by 2, and the CRC has 2 bytes (2x 8-bits).
 
 ##### Read GUI-status:
 If sending commands at intervals shorter than 20ms: Need to read GUI state before sending new order CMD
