@@ -20,8 +20,8 @@ Basic specs:
 
 Serial port specs:
 - Baudrate: 3150 ~ 3225600 bps (3.225600 Mbps)
-- Output Voltage (TXD) VOL: 0.1V ~ 0.4V; VOH: 2.7V ~ 3.3V
-- Input Voltage (RXD) VIL: 0V ~ 1.0V; VIH: 2.4V ~ 5.5V
+- Output Voltage (TXD) Vol: 0.1V ~ 0.4V; Voh: 2.7V ~ 3.3V
+- Input Voltage (RXD) Vil: 0V ~ 1.0V; Vih: 2.4V ~ 5.5V
 
 ![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Doc/DMG80480Y070_02NN_front.png)
 
