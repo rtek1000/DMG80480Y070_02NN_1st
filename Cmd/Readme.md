@@ -22,9 +22,10 @@ The DGUS II software has an appropriate terminal (SP Order) for sending orders (
 Note 4: In general, commands sent to the display are responded to, this can be used to check whether the Order (command) was received by the display.
 - Example for command (CMD): 5A A5 04 83 0015 01
 - - Response (RET): 5A A5 06 83 00 14 01 0000
-- Example for command (CMD): 5A A5 05 82 00A0 007D
-- - Response (RET): 5A A5 03 82 4F 4B
+- Example for command: 5A A5 05 82 00A0 007D
+- - Response: 5A A5 03 82 4F 4B
 
+Note 5: 'CMD' and 'RET' are 
 
 ##### No need to send CR (\r) or LF (\n) line terminator
 
