@@ -21,13 +21,13 @@ A thing I wasn't very successful at was writing text.
 - There may also be a lack of encoding compatibility, and the characters will not be displayed correctly.
 - - For example, when selecting the [UNICODE encoding](https://en.wikipedia.org/wiki/List_of_Unicode_characters) type, the microcontroller must send 2 bytes to write each character on the display.
 - - If the program only uses basic (Western) characters 0x00~0x7F, try using [GBK encoding](https://en.wikipedia.org/wiki/GBK_(character_encoding)), and you can only send 1 byte to write each character.
- ![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Doc/Font%20Generator/Encoding_type.PNG)
+- ![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Doc/Font%20Generator/Encoding_type.PNG)
 
 - If the letter appears wrong (unrecognizable):
 - - Try generating the font with the program '[Font generator](https://www.dwin-global.com/tool/)' (字库生成器.exe version 2.0.0.1).
 - - In Dot Matrix Size, leave the same value for X and Y.
 - - Be careful with the use of 'Scale' and 'Shift'; View all characters so that none are cut off.
- ![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Doc/Font%20Generator/Font%20Generator.PNG)
+- ![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Doc/Font%20Generator/Font%20Generator.PNG)
 
 ------
 
