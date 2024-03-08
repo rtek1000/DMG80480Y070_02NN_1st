@@ -20,7 +20,8 @@ A thing I wasn't very successful at was writing text.
 - - - And there are several open sources fonts on the internet.
 - If the letter appears wrong (unrecognizable):
 - - Try generating the font with the program '[Font generator](https://www.dwin-global.com/tool/)' [][][][][].exe (version 2.0.0.1). In Dot Matrix Size, leave the same value for X and Y.
-
+- - Be careful with the use of 'scale' and 'shift'; View all characters so that none are cut off.
+ 
 ------
 
 ### Note 3 - CRC:
