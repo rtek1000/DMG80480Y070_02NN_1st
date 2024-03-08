@@ -73,6 +73,7 @@ If sending commands at intervals shorter than 20ms: Need to read GUI state befor
 > The operation state feedback is in millisecond unit level, which is generally applied in special cases. The user can judge whether the GUI kernel is occupied by the DWIN - OS program.
 
 ------
+![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Cmd/Icon%20Display%20cmd.png)
 
 ### Load icon:
 - CMD: 5A A5 0F 82 5440 3007 0001 0168 0168 0001 FF00
@@ -96,7 +97,7 @@ If sending commands at intervals shorter than 20ms: Need to read GUI state befor
 - When using a VP address for each 'Basic Drawing', even if the Background image is changed, the icon will remain as it was, until the VP value is modified.
 - - When returning to the background, the icon will also be reloaded.
 
-Note1: There may be a BUG in the kernel that prevents several icons from being displayed at the same time, with one icon for each 'Basic Graphic' and each one with a different VP address. I tried to create a digital clock, but each time a digit was updated, the previous one was removed. The solution may be to use Icone Var_Icon which loads the icon according to the value placed in the VP address. 
+Note1: There may be a BUG in the kernel that prevents several icons from being displayed at the same time, with one icon for each 'Basic Graphic' and each one with a different VP address. I tried to create a digital clock, but each time a digit was updated, the previous one was removed. The solution may be to use Icone Var_Icon which loads the icon according to the value placed in the VP address. The problem may be with the amount of VP that the Icon Display command is writing. Each VP has 1 word (16-bit), but the Icon Display command needs 6 words (6x 16-bit), so you have to reserve the appropriate amount of unused VP, another item cannot share these VP.
 
 Note 2:
 - To load an icon, the program must have a 'Basic Graphic' item on the background image, which will have a VP address.
