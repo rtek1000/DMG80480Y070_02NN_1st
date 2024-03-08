@@ -22,7 +22,7 @@ A thing I wasn't very successful at was writing text.
 - - Try generating the font with the program '[Font generator](https://www.dwin-global.com/tool/)' (字库生成器.exe version 2.0.0.1).
 - - In Dot Matrix Size, leave the same value for X and Y.
 - - Be careful with the use of 'scale' and 'shift'; View all characters so that none are cut off.
-![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Doc/Font%20Generator/Font%20Generator%202.PNG)
+![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Doc/Font%20Generator/Font%20Generator.PNG)
 
 ------
 
