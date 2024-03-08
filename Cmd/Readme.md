@@ -96,12 +96,14 @@ If sending commands at intervals shorter than 20ms: Need to read GUI state befor
 - When using a VP address for each 'Basic Drawing', even if the Background image is changed, the icon will remain as it was, until the VP value is modified.
 - - When returning to the background, the icon will also be reloaded.
 
-Note 1:
+Note1: There may be a BUG in the kernel that prevents several icons from being displayed at the same time, with one icon for each 'Basic Graphic' and each one with a different VP address. I tried to create a digital clock, but each time a digit was updated, the previous one was removed. The solution may be to use Icone Var_Icon which loads the icon according to the value placed in the VP address. 
+
+Note 2:
 - To load an icon, the program must have a 'Basic Graphic' item on the background image, which will have a VP address.
 > 7.22 Basic Graphics (menu 'Graph Show' - 'Basic Graphic')
 > - The basic graphics control is to define a "drawing board" ('Basic Graphic' item) function in the display configuration file 14.BIN, and the specific drawing operation is determined by the content of the variable memory pointed to by * VP. Users can realize different drawing functions by changing the data in the variable memory.
 
-Note 2:
+Note 3:
 - The DGUS II software has an 'Export' button (*.xls file) that can be used as a list of VP addresses in use, including the background image and type of item used (unfortunately it is not yet in ascending VP order).
 
 ------
