@@ -18,6 +18,11 @@ A thing I wasn't very successful at was writing text.
 - - Automatic reduction of spaces between characters doesn't seem to work, or doesn't have it.
 - - I preferred to edit an image in Paint with text and display it as an icon.
 - - - And there are several open sources fonts on the internet.
+- There may also be a lack of encoding compatibility, and the characters will not be displayed correctly.
+- - For example, when selecting the [UNICODE encoding](https://en.wikipedia.org/wiki/List_of_Unicode_characters) type, the microcontroller must send 2 bytes to write each character on the display.
+- - If the program only uses basic (Western) characters 0x00~0x7F, try using GBK encoding, and you can only send 1 byte to write each character.
+
+
 - If the letter appears wrong (unrecognizable):
 - - Try generating the font with the program '[Font generator](https://www.dwin-global.com/tool/)' (字库生成器.exe version 2.0.0.1).
 - - In Dot Matrix Size, leave the same value for X and Y.
