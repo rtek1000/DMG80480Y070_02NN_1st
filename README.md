@@ -7,7 +7,8 @@ If you are looking for a low-cost display and are targeting an [SSD1963](https:/
 
 - [Danger: high voltage for ESP32 and others below 5V](https://github.com/dwinhmi/DWIN_DGUS_HMI/issues/17)
 - - The DMG80480Y070_02NN display is releasing 5V at output TX2.
-
+- - Datasheet says: TX2 output 3.2V, but my ESP32 started to stop receiving data from the display.
+  
 -----
 
 This model DMG80480Y070_02NN is 800x480 in 7 inches, with only additional Buzzer and communication connector.
