@@ -3,8 +3,12 @@ First impressions of the Dwin display model DMG80480Y070_02NN and Basic commands
 
 If you are looking for a low-cost display and are targeting an [SSD1963](https://github.com/rtek1000/Display_TFT_800x480_7_inch_SSD1963), it might be interesting to check out Dwin displays.
 
+-----
+
 - [Danger: high voltage for ESP32 and others below 5V](https://github.com/dwinhmi/DWIN_DGUS_HMI/issues/17)
 - - The DMG80480Y070_02NN display is releasing 5V at output TX2.
+
+-----
 
 This model DMG80480Y070_02NN is 800x480 in 7 inches, with only additional Buzzer and communication connector.
 
