@@ -21,20 +21,11 @@ Basic specs:
 - Working Humidity (25°C): 10% ~ 90% (Typ.: 60%)
 - Size: 189.1 x 101.2 x 14.5 mm
 
-Serial port specs [must support direct connection to Arduino UNO (5V) and ESP32 (3.3V)]:
+Serial port specs [must support direct connection to Arduino UNO (ONLY 5V, or using adapter for 3.3V)]:
 - Baudrate:
 - - Min.: 3150
 - - Max.: 3225600 bps (3.225600 Mbps)
 - - Typ.: 115200
-- Output Voltage (TXD):
-- - V(OL): 0.1V ~ 0.4V
-- - - 0.1V (Typ)
-- - V(OH): 2.7V ~ 3.2V
-- - - 3.2V (Typ)
-- Input Voltage (RXD)
-- - V(IL): 0V ~ 1.0V
-- - V(IH): 2.4V ~ 5.5V
-- - - 3.3V (Typ)
 
 ![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Doc/DMG80480Y070_02NN_front.png)
 
