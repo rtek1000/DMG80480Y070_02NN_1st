@@ -57,7 +57,7 @@ Just out of curiosity, I found a W25Q128 memory on this Dwin display (and a T5L0
 
 ## Capacitive touchscreen
 
-Regarding the possibility of installing a capacitive touchscreen on this display model, Dwin said it is not possible. Checking the board we can see that the pins that are dedicated for communication via I2C seem to not have tracks connected to the IC T5L0 pins. And as the pins are very narrow and very close together, it must be difficult to adapt wires to this board.
+Regarding the possibility of installing a capacitive touchscreen on this display model, Dwin said it is not possible. Checking the board we can see that the pins that are dedicated for communication via I2C seem to not have tracks connected to the IC T5L0 pins. And as the pins are very narrow and very close together (Pitch 0.4mm), it must be difficult to adapt wires to this board.
 
 ![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Doc/DMG80480Y070_02NN/Touchscreen_capacitive.jpg)
 
