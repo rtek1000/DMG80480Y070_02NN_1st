@@ -59,6 +59,8 @@ TXU0304 (internal blocks):
 
 ![TXU0304_img](https://www.ti.com/ds_dgm/images/fbd_sces935a.gif)
 
+W25Q128 data structure:
+
 ![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Doc/NOR_Flash_W25Q128.png)
 
 ------
