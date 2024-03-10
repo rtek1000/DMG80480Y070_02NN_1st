@@ -59,6 +59,8 @@ Just out of curiosity, I found a W25Q128 memory on this Dwin display (and a T5L0
 
 Regarding the possibility of installing a capacitive touchscreen on this display model, Dwin said it is not possible. Checking the board we can see that the pins that are dedicated for communication via I2C seem to not have tracks connected to the IC T5L0 pins. And as the pins are very narrow and very close together (Pitch 0.4mm), it must be difficult to adapt wires to this board.
 
+Note: The Arduino (ESP32) can handle the Capacitive Touchscreen controller model GSL1680, see the library [here](https://github.com/rtek1000/GSL1680_). The GSL1680 is listed in the touchscreen options in the CFG file settings tab. It is more advantageous to operate the touchscreen via Arduino (UNO, ESP32 etc), in case long periods of display inactivity are necessary, this way the touchscreen can continue working and serve to wake up the screen (when in fact the screen has the power supply (12V) turned off).
+
 ![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Doc/DMG80480Y070_02NN/Touchscreen_capacitive.jpg)
 
 ![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Doc/DMG80480Y070_02NN/Touchscreen_capacitive2.png)
