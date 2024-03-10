@@ -76,3 +76,9 @@ Support for Resistive Touchscreen is on the board, it may be necessary to check 
 ![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Doc/DMG80480Y070_02NN/Touchscreen_resistive2.jpg)
 
 ![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Doc/DMG80480Y070_02NN/Touchscreen_resistive1.jpg)
+
+------
+
+## Display model supported by the board
+
+The display model is LN80480C070, but I didn't find this display on the internet. Comparing with the display present in the module with the SSD1963 controller, I noticed that the LN80480C070 pins are compatible with the AT070TN92-V.X display, including the flat cable appears to be the same, and the image is practically the same, the fitting is also 50-way . So, if necessary, it may be possible to adapt another display model to this board with T5L0 IC.
