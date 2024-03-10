@@ -5,6 +5,10 @@
 
 ------
 
+The library for Arduino implements commands with CRC, see [here](https://github.com/rtek1000/DWIN_DGUS_HMI/).
+
+------
+
 ### Note 1 - timing:
 Programs made in DGUS II, that use timing, showed an interval about 2x faster in the preview simulator than in the real display.
 - For example, animating an icon with two images in a loop every 0.5s, the real display did it in 1s.
