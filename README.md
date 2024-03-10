@@ -5,7 +5,7 @@ If you are looking for a low-cost display and are targeting an [SSD1963](https:/
 
 - Compared to the SSD1963 display module, this Dwin display module has a good performance, as the microcontroller only needs to send data to set a memory address (called VP, 16-bits) for an icon to appear on the screen (Var Icon). While for an icon to appear on the screen, or to remove it, using the SSD1963, it will be necessary for the microcontroller to send all the icon data pixel-by-pixel.
 
-- If your concern is about remotely updating image files, it may be possible to access the memory via the SPI port, see details below.
+- If your concern is about remotely updating image files, it may be possible to access the memory via the SPI port, see details [below](https://github.com/rtek1000/DMG80480Y070_02NN_1st/blob/main/README.md#flash-memory).
   
 -----
 
