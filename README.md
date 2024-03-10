@@ -47,12 +47,15 @@ After reading the development guides, you may find these posts helpful:
 - If the display does not respond to commands from the serial port, see this [page](https://github.com/rtek1000/DMG80480Y070_02NN_1st/blob/main/Kernel/Readme.md).
 
 ------
+## Flash memory
 
 Just out of curiosity, I found a W25Q128 memory on this Dwin display (and a T5L0 IC). The data is saved in this memory in virtual partitions of 256kB, so it might be interesting for the ESP32 (or other uC) to program the data from the W25Q128 memory, which is SPI (if the data is not encrypted, which I believe it is not, so as not to reduce performance, I'm still going to see if I can check that). The file number is saved in each virtual partition, for example file 32.* must be saved in position 32x256kB.
 
 ![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Doc/NOR_Flash_W25Q128.png)
 
 ------
+
+## Capacitive touchscreen
 
 Regarding the possibility of installing a capacitive touchscreen on this display model, Dwin said it is not possible. Checking the board we can see that the pins that are dedicated for communication via I2C seem to not have tracks connected to the IC T5L0 pins. And as the pins are very narrow and very close together, it must be difficult to adapt wires to this board.
 
