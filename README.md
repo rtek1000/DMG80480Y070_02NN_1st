@@ -67,7 +67,7 @@ Regarding the possibility of installing a capacitive touchscreen on this display
 
 ## Resistive touchscreen
 
-Support for Resistive Touchscreen is on the board, it may be necessary to check the datasheet of the model with the touchscreen to see if there is a difference in the programming of the T5LCFG.CFG file.
+Support for Resistive Touchscreen is on the board, it may be necessary to check the datasheet of the model with the touchscreen (DMG80480Y070_02NR) to see if there is a difference in the programming of the T5LCFG.CFG file.
 
 ![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Doc/DMG80480Y070_02NN/Touchscreen_resistive.jpg)
 
