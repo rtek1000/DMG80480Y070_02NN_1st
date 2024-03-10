@@ -55,6 +55,8 @@ For example, the file 0_DWIN_ASC.HZK starts at address 0x00 of the W25Q128. A 14
 
 If the RESET of the IC T5L0 leaves the pins in a high impedance state (HIGH-Z), then it may be interesting to have a buffer, just to prevent the ESP32 from interfering with the T5L's SPI bus. For example, the [TXU0304](https://www.ti.com/product/TXU0304) buffer, which can be used for the SPI bus and others. So, when the activated buffer for the ESP32 has access to the W25Q128 memory, the RESET of IC T5L0 would also be triggered, leaving the W25Q128 memory free for the ESP32 to access.
 
+![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Doc/DMG80480Y070_02NN/DMG80480Y070_02NN_RESET.jpg)
+
 Once the ESP32 has access to the W25Q128 of the Dwin display, it would be possible to remotely update the display files, as the ESP32 has the ability to access the Internet, either via Wi-Fi or a wired network.
 
 TXU0304 (internal blocks):
