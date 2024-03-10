@@ -53,6 +53,8 @@ Just out of curiosity, I found a W25Q128 memory on this Dwin display (and a T5L0
 
 For example, the file 0_DWIN_ASC.HZK starts at address 0x00 of the W25Q128. A 14 file must start at address 14x(1024x256) = 14x(262144) = 3670016; in hexadecimal it is 380000h or 0x380000. With the [WinMerge](https://winmerge.org/) program it is possible to see the binary files, although it is not possible to decompile, you can already notice the data pattern. And you can also adjust the offset for the address, for example 0x380000 and see the contents of file 14.
 
+If the RESET of the IC T5L0 leaves the pins in a high impedance state (HIGH-Z), then it may be interesting to have a buffer, just to prevent the ESP32 from interfering with the T5L's SPI bus. For example, the [TXU0304](https://www.ti.com/product/TXU0304) buffer, which can be used for the SPI bus and others. So, when the activated buffer for the ESP32 has access to the W25Q128 memory, the RESET of IC T5L0 would also be triggered, leaving the W25Q128 memory free for the ESP32 to access.
+
 ![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Doc/NOR_Flash_W25Q128.png)
 
 ------
