@@ -45,3 +45,9 @@ After reading the development guides, you may find these posts helpful:
 - [Arduino sketch (basic, with CRC)](https://github.com/rtek1000/DWIN_DGUS_HMI/blob/master/examples/Hello_World_crc/Hello_World_crc.ino)
 
 - If the display does not respond to commands from the serial port, see this [page](https://github.com/rtek1000/DMG80480Y070_02NN_1st/blob/main/Kernel/Readme.md).
+
+------
+
+Just out of curiosity, I found a W25Q128 memory on this Dwin display (and a T5L0 IC). The data is saved in this memory in virtual partitions of 256kB, so it might be interesting for the ESP32 (or other uC) to program the data from the W25Q128 memory, which is SPI (if the data is not encrypted, which I believe it is not, so as not to reduce performance, I'm still going to see if I can check that). The file number is saved in each virtual partition, for example file 32.* must be saved in position 32x256kB.
+
+![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Doc/NOR_Flash_W25Q128.png)
