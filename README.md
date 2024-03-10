@@ -56,6 +56,7 @@ For example, the file 0_DWIN_ASC.HZK starts at address 0x00 of the W25Q128. A 14
 If the RESET of the IC T5L0 leaves the pins in a high impedance state (HIGH-Z), then it may be interesting to have a buffer, just to prevent the ESP32 from interfering with the T5L's SPI bus. For example, the [TXU0304](https://www.ti.com/product/TXU0304) buffer, which can be used for the SPI bus and others. So, when the activated buffer for the ESP32 has access to the W25Q128 memory, the RESET of IC T5L0 would also be triggered, leaving the W25Q128 memory free for the ESP32 to access.
 
 TXU0304 (internal blocks):
+
 ![TXU0304_img](https://www.ti.com/ds_dgm/images/fbd_sces935a.gif)
 
 ![img](https://raw.githubusercontent.com/rtek1000/DMG80480Y070_02NN_1st/main/Doc/NOR_Flash_W25Q128.png)
