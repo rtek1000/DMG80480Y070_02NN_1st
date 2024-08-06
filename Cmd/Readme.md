@@ -111,6 +111,9 @@ Note 2:
 Note 3:
 - The DGUS II software has an 'Export' button (*.xls file) that can be used as a list of VP addresses in use, including the background image and type of item used (unfortunately it is not yet in ascending VP order).
 
+Note 4:
+- Animation Icon, the manual (v2.8) mentions a limit of 255 (0xFF) for the image identification number for use with animated icons. This way, numbers above 255 cannot be used to animate icons (ICON_Stop/ICON_Start/ICON_End parameters). But for Var Icon it is possible to use file identification numbers above 255.
+
 ------
 
 ### Touchscreen Simulated:
